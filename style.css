@@ -1,0 +1,107 @@
+
+
+@import url(https://fonts.googleapis.com/css?family=Fredericka+the+Great|Lato);    
+
+
+/* This is body background color*/
+
+   body {
+         background-color:#ebebe7;
+        }
+
+
+/* This is the title box design without  the text  */
+
+   h1,h2,.box{
+             box-sizing: border-box;
+             margin:5px 0px;            
+             background-color: #696969;
+             padding:3px 3px 10px 10px;
+             font-family: arial, sans-serif;
+             text-align: center;
+             Height: Auto;
+            }
+
+
+
+/* This is for both pictures alignment */ 
+
+  .center{
+         display: Block;
+         margin-left: auto;
+         margin-right: auto;
+         Width: 35%;
+         }
+
+
+ /* This is both lists (UL) and (OL) alignment */ 
+
+    nav {
+        display: flex;
+        justify-content: center;
+        align-items: center;  
+        }
+
+
+
+/* This is for all H3 and paragraphs*/
+
+   H3,p{
+       font-family: arial, sans-serif;
+       text-align: center;
+       }
+
+
+/* This is for all H1 desgin*/
+
+   h1{
+     font-family: 'Architects Daughter', cursive;
+     font-size: 30px;
+     color: #ebebe7;
+     }
+
+
+/* This is for all H2 desgin*/ 
+
+    h2 {
+       font-family: Arial, sans-serif;
+       font-size: 16px;
+       color:#ebebe7; 
+       }
+
+/* Links styled using pseudo-classes */
+ 
+   a:link{
+   color:blue;
+   font-size:18px;
+   }
+
+
+  a:visited{
+  color: #FF0000;
+  }
+
+
+  a:hover{
+  color:#FFA500;
+  }
+
+
+
+/*This is the footer design*/
+
+  footer {
+         box-sizing: border-box;
+         margin:0px 0px 1px 1px;           
+         background-color: #696969;
+         padding: 0px 0px 1px 0px;
+         text-align: center;  
+        }
+
+
+/*All the H4 design*/
+
+  H4 {
+     font-family: 'Architects Daughter', cursive;
+     color: #ebebe7;
+     {
